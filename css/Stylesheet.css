@@ -127,6 +127,24 @@ h1 {
   animation: SlideDownFade 0.5s 0.5s forwards;
 }
 
+/* navigasi */
+
+.next,
+.prev {
+  width: 57px;
+  height: 93px;
+  background-image: url(../img/next.png);
+  position: absolute;
+  text-indent: -99999px;
+  top: 45%;
+  margin-left: 40px;
+}
+
+.prev {
+  background-image: url(../img/prev.png);
+  margin-left: -100px;
+}
+
 /* Animasi */
 
 @keyframes ZoomDanFade {
